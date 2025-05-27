@@ -10,11 +10,7 @@ import prettierConfig from 'eslint-config-prettier';
 export default tseslint.config(
   { ignores: ['dist', 'node_modules'] },
   {
-    extends: [
-      js.configs.recommended,
-      ...tseslint.configs.recommended,
-      prettierConfig,
-    ],
+    extends: [js.configs.recommended, ...tseslint.configs.recommended, prettierConfig],
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
       ecmaVersion: 2020,
@@ -28,23 +24,12 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
-      'react-refresh/only-export-components': [
-        'warn',
-        { allowConstantExport: true },
-      ],
-      '@typescript-eslint/no-unused-vars': [
-        'warn',
-        { argsIgnorePattern: '^_' },
-      ],
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
       'import/order': [
         'error',
         {
-          groups: [
-            ['builtin', 'external'],
-            ['internal'],
-            ['parent', 'sibling', 'index'],
-            ['type'],
-          ],
+          groups: [['builtin', 'external'], ['internal'], ['parent', 'sibling', 'index'], ['type']],
           pathGroups: [
             {
               pattern: '@/**',
