@@ -1,30 +1,49 @@
 const typography = {
-  fontFamily: '"Unbounded", Arial, sans-serif',
+  fontFamily: `'Public Sans', sans-serif`,
+  fontSize: 16,
   h1: {
-    fontSize: '2.8rem',
+    fontSize: '1.5rem',
     fontWeight: 600,
-    lineHeight: 1.4,
   },
   h2: {
-    fontSize: '2rem',
+    fontSize: '1.375rem',
     fontWeight: 600,
-    lineHeight: 1.4,
   },
-  body1: {
-    fontSize: '1.4rem',
-    fontWeight: 300,
-    lineHeight: 1.4,
+  h3: {
+    fontSize: '1.25rem',
+    fontWeight: 600,
   },
-  body2: {
-    fontSize: '1.2rem',
-    fontWeight: 300,
-    lineHeight: 1.4,
+  h4: {
+    fontSize: '1.125rem',
+    fontWeight: 600,
   },
-  inputLabel: {
-    fontFamily: '"Roboto", Arial, sans-serif',
-    fontSize: '1.2rem',
+  h5: {
+    fontSize: '1rem',
+    fontWeight: 600,
+  },
+  textXs: {
+    fontSize: '0.75rem',
+    fontWeight: 400,
+  },
+  textXsSemiBold: {
+    fontSize: '0.75rem',
+    fontWeight: 600,
+  },
+  textSmLight: {
+    fontSize: '0.875rem',
     fontWeight: 300,
-    lineHeight: 1.4,
+  },
+  textSm: {
+    fontSize: '0.875rem',
+    fontWeight: 400,
+  },
+  textSmMedium: {
+    fontSize: '0.875rem',
+    fontWeight: 500,
+  },
+  textSmSemiBold: {
+    fontSize: '0.875rem',
+    fontWeight: 600,
   },
 };
 

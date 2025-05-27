@@ -1,6 +1,7 @@
-import { CssBaseline } from '@mui/material';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { Outlet, createRootRoute } from '@tanstack/react-router';
-import * as React from 'react';
+
+import { muiTheme } from '@/styles/theme';
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -8,9 +9,9 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   return (
-    <React.Fragment>
+    <ThemeProvider theme={muiTheme}>
       <CssBaseline />
       <Outlet />
-    </React.Fragment>
+    </ThemeProvider>
   );
 }
