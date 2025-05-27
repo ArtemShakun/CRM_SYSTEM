@@ -25,3 +25,4 @@ dist-ssr
 
 routeTree.gen.ts
 *storybook.log
+.env
