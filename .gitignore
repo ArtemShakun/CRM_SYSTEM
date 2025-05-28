@@ -26,3 +26,4 @@ dist-ssr
 routeTree.gen.ts
 *storybook.log
 .env
+pnpm-lock.yaml

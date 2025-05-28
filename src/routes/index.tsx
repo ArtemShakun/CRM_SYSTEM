@@ -8,7 +8,7 @@ function RouteComponent() {
   return (
     <>
       <title>Home</title>
-      <p> HI</p>
+      <div>Hello "/"!</div>
     </>
   );
 }

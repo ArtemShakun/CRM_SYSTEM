@@ -1,4 +1,4 @@
-import { IconWrapper, StyledButton } from './Button.styled';
+import { IconWrapper, StyledButton } from './UIButton.styled';
 
 import type { IButtonProps } from './types';
 
