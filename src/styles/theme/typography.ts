@@ -21,9 +21,13 @@ const typography = {
     fontSize: '1rem',
     fontWeight: 600,
   },
-  textXs: {
+  textXsRegular: {
     fontSize: '0.75rem',
     fontWeight: 400,
+  },
+  textXsMedium: {
+    fontSize: '0.75rem',
+    fontWeight: 500,
   },
   textXsSemiBold: {
     fontSize: '0.75rem',
@@ -33,7 +37,7 @@ const typography = {
     fontSize: '0.875rem',
     fontWeight: 300,
   },
-  textSm: {
+  textSmRegular: {
     fontSize: '0.875rem',
     fontWeight: 400,
   },

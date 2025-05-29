@@ -2,19 +2,21 @@ import type * as React from 'react';
 
 declare module '@mui/material/styles' {
   interface TypographyVariants {
-    textXs: React.CSSProperties;
+    textXsRegular: React.CSSProperties;
+    textXsMedium: React.CSSProperties;
     textXsSemiBold: React.CSSProperties;
     textSmLight: React.CSSProperties;
-    textSm: React.CSSProperties;
+    textSmRegular: React.CSSProperties;
     textSmMedium: React.CSSProperties;
     textSmSemiBold: React.CSSProperties;
   }
 
   interface TypographyVariantsOptions {
-    textXs?: React.CSSProperties;
+    textXsRegular?: React.CSSProperties;
+    textXsMedium?: React.CSSProperties;
     textXsSemiBold?: React.CSSProperties;
     textSmLight?: React.CSSProperties;
-    textSm?: React.CSSProperties;
+    textSmRegular?: React.CSSProperties;
     textSmMedium?: React.CSSProperties;
     textSmSemiBold?: React.CSSProperties;
   }
@@ -22,10 +24,11 @@ declare module '@mui/material/styles' {
 
 declare module '@mui/material/Typography' {
   interface TypographyPropsVariantOverrides {
-    textXs: true;
+    textXsRegular: true;
+    textXsMedium: true;
     textXsSemiBold: true;
     textSmLight: true;
-    textSm: true;
+    textSmRegular: true;
     textSmMedium: true;
     textSmSemiBold: true;
   }
