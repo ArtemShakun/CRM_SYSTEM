@@ -5,9 +5,9 @@ export const StyledStatusTag = styled('span')(({ theme }) => ({
   alignItems: 'center',
   gap: theme.spacing(0.5),
   padding: theme.spacing(0.5, 1.5),
+  backgroundColor: theme.palette.background.default,
   color: theme.palette.text.primary,
   borderRadius: '99px',
-  backgroundColor: theme.palette.background.default,
   boxShadow: '0px 1px 2px rgba(0, 0, 0, 0.08)',
   ...theme.typography.textXsRegular,
 }));
