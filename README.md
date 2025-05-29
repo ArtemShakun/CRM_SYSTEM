@@ -1,54 +1,53 @@
-# React + TypeScript + Vite
+# 📦 CRM UI (Atomic Design + MUI + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **personal training playground** for mastering **Atomic Design architecture** using **Material UI**. The goal is to build a **scalable, maintainable, and clean UI foundation**, with a strong focus on **code quality, safety, and test coverage**.
 
-Currently, two official plugins are available:
+Technologies such as **TypeScript**, **ESLint**, **Vitest**, and **Storybook** are used to ensure consistency, reliability, and rapid UI development. CI is integrated to automate code validation at every commit.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> 🛠 **This project is actively under development and is expanding daily.**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+- **Vite** – blazing fast frontend tooling
+- **React** – component-based UI library
+- **TypeScript** – static type checking
+- **Material UI** – modern and customizable React components
+- **Atomic Design** – methodology for scalable UI architecture
+- **ESLint** – code linting and formatting
+- **Vitest** – fast unit testing
+- **Storybook** – isolated UI component development
+- **CI** – automated code validation on each commit
+
+---
+
+```bash
+📦 Getting Started:
+- Install dependencies using [pnpm](https://pnpm.io):
+
+# Install dependencies
+pnpm install
+
+# Start the development server
+pnpm dev
+
+# Lint the code
+pnpm lint
+
+# Lint and auto-fix issues
+pnpm lint:fix
+
+# Run unit tests
+pnpm test
+
+# Run Storybook
+pnpm storybook
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+✍️ Author
+Developed by Artem Shakun — frontend developer expanding into fullstack development.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+📌 License
+This project is licensed under the **Proprietary License**. All rights reserved.
