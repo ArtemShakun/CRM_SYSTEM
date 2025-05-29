@@ -12,7 +12,7 @@ export const UILinkTag = ({ position = 'start', link, title }: UILinkTagProp) =>
   return (
     <StyledLinkTag href={link}>
       {position === 'start' && <AddCircleOutlineIcon style={{ fontSize: '16px' }} />}
-      <span>{title}</span>
+      {title}
       {position === 'end' && <AddCircleOutlineIcon style={{ fontSize: '16px' }} />}
     </StyledLinkTag>
   );
