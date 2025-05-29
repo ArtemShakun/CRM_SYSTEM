@@ -3,7 +3,7 @@ import { UIStatusTag } from './UIStatusTag';
 import type { Meta, StoryObj } from '@storybook/react';
 
 const meta: Meta<typeof UIStatusTag> = {
-  title: 'Atoms/StatusTag',
+  title: 'Atoms/TagStatus',
   component: UIStatusTag,
   tags: ['autodocs'],
   argTypes: {

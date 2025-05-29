@@ -22,31 +22,31 @@ const typography = {
     fontWeight: 600,
   },
   textXsRegular: {
-    fontSize: '0.75rem',
+    fontSize: '0.875rem',
     fontWeight: 400,
   },
   textXsMedium: {
-    fontSize: '0.75rem',
+    fontSize: '0.875rem',
     fontWeight: 500,
   },
   textXsSemiBold: {
-    fontSize: '0.75rem',
+    fontSize: '0.875rem',
     fontWeight: 600,
   },
   textSmLight: {
-    fontSize: '0.875rem',
+    fontSize: '0.75rem',
     fontWeight: 300,
   },
   textSmRegular: {
-    fontSize: '0.875rem',
+    fontSize: '0.75rem',
     fontWeight: 400,
   },
   textSmMedium: {
-    fontSize: '0.875rem',
+    fontSize: '0.75rem',
     fontWeight: 500,
   },
   textSmSemiBold: {
-    fontSize: '0.875rem',
+    fontSize: '0.75rem',
     fontWeight: 600,
   },
 };
