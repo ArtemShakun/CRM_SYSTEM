@@ -28,6 +28,7 @@
       "@/store/*": ["./src/store/*"],
       "@/assets/*": ["./src/assets/*"],
       "@/configs/*": ["./src/configs/*"],
+      "@/ui/*": ["./src/ui/*"],
       "@/types/*": ["./src/types/*"],
       "@/styles/*": ["./src/styles/*"]
     }
